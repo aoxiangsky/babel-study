@@ -1,4 +1,3 @@
-let a = ""
-function asd(greeting: string) {
-    this.a = greeting;
-}
+import "@babel/polyfill";
+
+Promise.resolve().finally();
