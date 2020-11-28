@@ -4,7 +4,9 @@
   "description": "babel-study",
   "main": "index.js",
   "dependencies": {
-    "@babel/polyfill": "^7.10.4"
+    "@babel/polyfill": "^7.10.4",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -22,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aoxiangsky/babel-study.git"
+    "url": "git+https://github.com/aoxiangsky/babel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aoxiangsky/babel-study/issues"
+    "url": "https://github.com/aoxiangsky/babel/issues"
   },
-  "homepage": "https://github.com/aoxiangsky/babel-study#readme"
+  "homepage": "https://github.com/aoxiangsky/babel#readme"
 }
